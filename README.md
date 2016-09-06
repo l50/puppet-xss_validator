@@ -20,7 +20,7 @@ Used to install the xssValidator Burp Extension on Kali Linux.
 
 ## Module Description
 
-This module will install xssValidator on a Kali machine.
+This module will install a Burp Suite extension to help automatically validate XSS findings with the Burp Intruder tool.
 
 ## Setup
 
