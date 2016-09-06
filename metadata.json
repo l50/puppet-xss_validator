@@ -11,6 +11,6 @@
     {"name":"puppetlabs/git"},
     {name:puppetlabs/vcsrepo},
     {name:maestrodev-wget},
-    {name:3fs/phantomjs}
+    {name:3fs/phantomjs},
   ]
 }
