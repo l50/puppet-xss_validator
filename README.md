@@ -16,7 +16,7 @@ puppet-xss_validator
 
 ## Overview
 
-Used to install the xssValidator Burp Extension on Kali Linux.
+Used to install the [xssValidator](https://github.com/nVisium/xssValidator) Burp Extension on Kali Linux.
 
 ## Module Description
 
