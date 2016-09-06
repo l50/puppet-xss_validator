@@ -66,7 +66,7 @@ class xss_validator(
     provider => git,
     source   => 'git://github.com/l50/xssValidator.git',
     require  => Class['git'],
-    }->
+    } ->
 
     file { "$install_location/burp-extender/lib":
       ensure => 'directory',
@@ -76,10 +76,11 @@ class xss_validator(
     } ->
 
     wget::fetch { $dependencies:
-      destination => "$install_location/burp-extender/lib",
-    }
+      destination => "$install_location/burp-extender/lib/",
+    } ->
 
     exec { 'compile_xss-validator_jar':
-      command => "/usr/bin/ant $install_location/burp-extender/bin/burp"
+      command => '/usr/bin/ant',
+      cwd     => "$install_location/burp-extender/bin/burp",
     }
 }
