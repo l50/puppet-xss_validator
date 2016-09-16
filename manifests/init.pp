@@ -47,12 +47,12 @@
 # Authors
 # -------
 #
-# Jayson Grace <jayson.e.grace@gmail.com>
+# Jayson Grace (l50) <jayson.e.grace@gmail.com>
 #
 # Copyright
 # ---------
 #
-# Copyright 2016 Jayson Grace
+# Copyright 2016 Jayson Grace (l50)
 #
 class xss_validator(
   $install_location=$xss_validator::params::install_location,
