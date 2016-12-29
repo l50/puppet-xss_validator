@@ -33,6 +33,7 @@
 # Requirements
 # --------
 #
+# puppetlabs-git - https://github.com/puppetlabs/puppetlabs-git
 # puppetlabs-stdlib - https://github.com/puppetlabs/puppetlabs-stdlib
 # puppetlabs-vcsrepo - https://github.com/puppetlabs/puppetlabs-vcsrepo
 # phantomjs - https://github.com/3fs/puppet-phantomjs
